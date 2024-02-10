@@ -1,0 +1,180 @@
+<!--Design by foolishdeveloper.com-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Transparent login form </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Bodoni Moda', serif; */
+  /* font-family:'Ysabeau SC', sans-serif; */
+  font-family: 'Amatic SC', cursive;
+}
+ html{
+
+  background: url("https://wallpapershome.com/images/pages/ico_h/11867.jpg");
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+ 
+ }
+
+body{
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-size: cover;
+  
+ 
+
+  
+}
+
+.content{
+  width: 330px;
+ 
+  border-radius: 10px;
+  padding: 40px 30px;
+  margin-top: 100px;
+  box-shadow: -3px -3px 9px #000000a2,
+              3px 3px 7px rgba(0, 0, 0, 0.671);
+ 
+}
+
+
+.content .text{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 35px;
+  color: rgb(0, 0, 0);
+}
+
+.content .field{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.field input{
+  height: 100%;
+  width: 100%;
+  padding-left: 45px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  border: 2px solid rgba(0, 0, 0, 0.438);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.514);
+ 
+}
+
+
+.field input::placeholder{
+  color: #ffffff;
+}
+.field:nth-child(2){
+  margin-top: 20px;
+}
+
+.field span{
+  position: absolute;
+  width: 50px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+
+
+button{
+  margin: 25px 0 0 0;
+  width: 100%;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid rgba(0, 0, 0, 0.438);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0);
+ margin-top: 40px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+ 
+}
+ 
+.content .or{
+  color: rgb(255, 255, 255);
+  margin-top: 9px;
+}
+ 
+.icon-button{
+  margin-top: 15px;
+}
+.icon-button span{
+  border: 2px solid rgba(0, 0, 0, 0.438);
+  cursor: pointer;
+  text-align: center;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+   color: rgb(255, 255, 255);
+ border-radius: 5px;
+  line-height: 30px;
+  background: rgba(255, 254, 254, 0);
+    backdrop-filter: blur(10px);
+}
+.icon-button span.facebook{
+  margin-right: 17px;
+
+}
+button:hover,
+.icon-button span:hover{
+  background-color: #000000;
+}
+ 
+    </style>
+</head>
+<body>
+  
+ 
+<div class="content">
+ <div class="text">Login</div>
+  <form action="#">
+    <div class="field">
+      <span class="fa fa-user"></span>
+      <input type="text" placeholder="Email Id" required>
+   
+    </div>
+    <div class="field">
+      <span class="fa fa-lock"></span>
+      <input type="password" placeholder="Password">
+      
+    </div>
+    
+    <button>Log in</button>
+    <div class="or">Or</div>
+    <div class="icon-button"> 
+        
+      <a href="registration.html"><span class="facebook"><i class="fa fa-facebook"></i>  Register</span></a>
+
+      <!-- <span><i class="fa fa-google"></i>  Google</span> -->
+
+
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

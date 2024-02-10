@@ -1,0 +1,44 @@
+body{
+    background:url(https://images.pexels.com/photos/6596226/pexels-photo-6596226.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: #fff;
+    text-shadow:5px 5px#000000;
+}
+.DETAILS{
+    font-family: 'Courier New', Courier, monospace ;
+    display:block;
+    color:#fff9f9;
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 500px;
+    padding-right: 50px;   
+}
+input{
+    width: 50%;
+
+}
+
+.btn{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #02020200;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    font-size: 20px;
+    transition: background 0.5s;
+    color: #ffffff;
+}
+.btn:hover{
+    /* background:  #ff0307; */
+    background: linear-gradient(to right,#000000,#50515000,#9409fe00,#000000);
+}

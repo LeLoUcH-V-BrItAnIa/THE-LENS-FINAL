@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding:50px 0;
+    background: url(peakpx1.jpg);
+    /* backdrop-filter: blur(2px); */
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+h1{
+color: rgb(255, 255, 255);
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table{
+    width: 80%;
+    display: table;
+    color: rgb(255, 255, 255);
+    table-layout: fixed;
+    /* background: url(https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg); */
+    text-align: center;
+}

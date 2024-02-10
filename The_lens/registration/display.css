@@ -1,0 +1,92 @@
+body{
+    background:url(https://cdn.wallpapersafari.com/40/75/zl3PxE.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   max-width: 100%;
+   height: auto;
+   width: auto;
+}
+.container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    margin: 20px;
+   position: relative;
+   /* left: 20%; */
+    align-items: center;
+    justify-content: space-around;
+   
+    
+    
+}
+img{
+    top: 20%;
+    border-radius: 8px;
+    height: 300px;
+    width: 250px;
+    margin: 50px;
+    position: relative;
+    left: 100%;
+  
+}
+h1{
+    position: relative;
+    bottom: 0;
+    top: 0;
+    color: rgb(80, 74, 74);
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: cursive;
+    font-weight: 200;
+    font-size: 100px;
+    text-shadow: 5px 5px rgb(255, 255, 255);
+    text-align: center;
+    /* background: url(https://wallpapers.com/images/hd/sandy-ash-color-stone-texture-dcg4f0g3g8m7lvv9.jpg); */
+    /* backdrop-filter: blur(2px); */
+}
+    
+h2{
+    color: rgb(208, 0, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-weight: 600; */
+    font-size: 50px;
+    text-shadow: 3px 3px rgb(254, 254, 254);
+    text-align: left;
+   
+}
+/* h2:after{
+     content: '';
+    background: #ffffff;
+    width: 30%;
+    height: 5px;
+    border-radius:4px;
+    position: absolute;
+    bottom: 105%;
+    left: 50%;
+  transform: translateX(-50%);
+
+} */
+
+.btn{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #000000;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+    color: #ffffff;
+}
+.btn:hover{
+    /* background:  #ff0307; */
+    background: linear-gradient(to right,#50515000,#9409fe00,#000000);
+}
+form{
+    position: absolute;
+   bottom: 60%;
+    left: 80%;
+}
+
